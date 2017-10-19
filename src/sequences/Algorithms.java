@@ -29,7 +29,7 @@ public class Algorithms {
      * @return True/false regarding whether the two sequences have equal elements.
      */
     public static <T>
-    boolean equals(Sequence<T> s1, Sequence<T> s2) {
+    boolean equalSequences(Sequence<T> s1, Sequence<T> s2) {
         Iter<T> i = s1.begin();
         Iter<T> j = s2.begin();
         while ((! i.equals(s1.end())) && (! j.equals(s2.end()))) {
